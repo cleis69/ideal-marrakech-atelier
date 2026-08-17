@@ -1,0 +1,265 @@
+/* ==========================================================================
+   IDÉAL CONTEMPORAIN — Design tokens
+   Palette et échelles extraites de @ideal.contemporain (relevé 16/08/2026).
+   À coller tel quel dans le projet (index.css / globals.css).
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  /* ---------- Couleurs : fonds ---------- */
+  --ic-ivoire:        #FAF7F2;  /* fond principal */
+  --ic-sable:         #F2EDE4;  /* alternance de sections */
+  --ic-lin:           #E8DFD2;  /* surfaces, filets, survol */
+
+  /* ---------- Couleurs : encre ---------- */
+  --ic-noir:          #1A1815;  /* texte, sections sombres, acier noir */
+  --ic-greige:        #8A8177;  /* texte secondaire, légendes, labels */
+
+  /* ---------- Couleurs : matière ---------- */
+  --ic-travertin:     #C9B79F;  /* matière signature — filets, accents 3D */
+  --ic-noyer:         #6B4A32;  /* chaleur, ponctuel */
+  --ic-terracotta:    #B5643F;  /* accent chaud — 1 usage par page max */
+
+  /* ---------- Couleur produit (hors palette de marque) ---------- */
+  --ic-anis:          #A8B830;  /* observé 1× (canapé). Fiche produit uniquement. */
+
+  /* ---------- Rôles sémantiques ---------- */
+  --ic-bg:            var(--ic-ivoire);
+  --ic-bg-alt:        var(--ic-sable);
+  --ic-surface:       var(--ic-lin);
+  --ic-text:          var(--ic-noir);
+  --ic-text-muted:    var(--ic-greige);
+  --ic-border:        var(--ic-lin);
+  --ic-accent:        var(--ic-travertin);
+
+  /* Section sombre — 1 par page maximum */
+  --ic-bg-dark:       var(--ic-noir);
+  --ic-text-on-dark:  var(--ic-ivoire);
+  --ic-muted-on-dark: #8F877C;
+  --ic-border-dark:   #2E2A26;
+
+  /* ---------- Typographie ---------- */
+  --ic-font-display: 'Instrument Serif', 'Canela', 'GT Sectra', Georgia, serif;
+  --ic-font-body:    'Inter', 'Suisse Int\'l', -apple-system, system-ui, sans-serif;
+
+  --ic-text-display: clamp(4rem, 9vw, 8.5rem);
+  --ic-text-h1:      clamp(2.75rem, 5.5vw, 4.5rem);
+  --ic-text-h2:      clamp(2rem, 3.5vw, 3rem);
+  --ic-text-h3:      1.5rem;
+  --ic-text-body:    1.0625rem;
+  --ic-text-small:   0.875rem;
+  --ic-text-label:   0.6875rem;
+
+  --ic-leading-display: 0.95;
+  --ic-leading-title:   1.05;
+  --ic-leading-body:    1.65;
+
+  /* Signature typographique de la marque — reprise de la baseline du logo */
+  --ic-tracking-label: 0.28em;
+  --ic-tracking-btn:   0.18em;
+
+  /* ---------- Espacement ---------- */
+  --ic-space-xs:  0.5rem;
+  --ic-space-sm:  1rem;
+  --ic-space-md:  2rem;
+  --ic-space-lg:  4rem;
+  --ic-space-xl:  8rem;
+  --ic-section:   clamp(6rem, 12vh, 12rem);   /* rythme vertical entre sections */
+  --ic-gutter:    clamp(1.5rem, 8vw, 8rem);   /* marges latérales généreuses */
+  --ic-max-width: 1440px;
+
+  /* ---------- Formes ---------- */
+  /* Bords droits ou quasi droits — le mobilier est net, l'interface l'est aussi. */
+  --ic-radius:       0px;
+  --ic-radius-soft:  2px;
+  --ic-radius-full:  9999px;   /* curseur et bulle WhatsApp uniquement */
+  --ic-border-width: 1px;
+
+  /* Aucune ombre portée sur ce projet. La séparation se fait par fond et filet. */
+  --ic-shadow: none;
+
+  /* ---------- Mouvement ---------- */
+  --ic-ease:          cubic-bezier(0.16, 1, 0.3, 1);
+  --ic-duration-fast: 400ms;
+  --ic-duration:      700ms;
+  --ic-duration-slow: 1200ms;
+
+  /* ---------- Media ---------- */
+  --ic-grain-opacity: 0.03;   /* unifie des sources visuelles hétérogènes */
+  --ic-parallax:      0.15;   /* facteur maximum */
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+  background: var(--ic-bg);
+  color: var(--ic-text);
+  font-family: var(--ic-font-body);
+  font-size: var(--ic-text-body);
+  line-height: var(--ic-leading-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .ic-display {
+  font-family: var(--ic-font-display);
+  font-weight: 400;
+  line-height: var(--ic-leading-title);
+  letter-spacing: -0.01em;
+}
+
+.ic-display {
+  font-size: var(--ic-text-display);
+  line-height: var(--ic-leading-display);
+}
+
+/* Le kicker : l'élément de reconnaissance le plus fort de la marque.
+   Repris directement de la baseline « ATELIER · ORGANISE · DESIGN ». */
+.ic-label {
+  font-family: var(--ic-font-body);
+  font-size: var(--ic-text-label);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--ic-tracking-label);
+  color: var(--ic-text-muted);
+}
+
+/* ==========================================================================
+   Composants
+   ========================================================================== */
+
+.ic-section {
+  padding-block: var(--ic-section);
+  padding-inline: var(--ic-gutter);
+  max-width: var(--ic-max-width);
+  margin-inline: auto;
+}
+
+.ic-section--dark {
+  background: var(--ic-bg-dark);
+  color: var(--ic-text-on-dark);
+  max-width: none;
+}
+
+.ic-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75em;
+  padding: 1.125rem 2.25rem;
+  border: var(--ic-border-width) solid var(--ic-noir);
+  border-radius: var(--ic-radius);
+  background: var(--ic-noir);
+  color: var(--ic-ivoire);
+  font-size: var(--ic-text-label);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--ic-tracking-btn);
+  text-decoration: none;
+  cursor: pointer;
+  /* Transition de couleur uniquement — jamais de changement d'échelle. */
+  transition: background var(--ic-duration-fast) var(--ic-ease),
+              color var(--ic-duration-fast) var(--ic-ease);
+}
+
+.ic-btn:hover {
+  background: transparent;
+  color: var(--ic-noir);
+}
+
+.ic-btn--outline {
+  background: transparent;
+  color: var(--ic-noir);
+}
+
+.ic-btn--outline:hover {
+  background: var(--ic-noir);
+  color: var(--ic-ivoire);
+}
+
+.ic-rule {
+  border: 0;
+  border-top: var(--ic-border-width) solid var(--ic-border);
+}
+
+/* Images : pas de bordure, pas d'ombre, grain léger pour unifier les sources. */
+.ic-media {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--ic-radius-soft);
+}
+
+.ic-media img,
+.ic-media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--ic-duration-slow) var(--ic-ease);
+}
+
+.ic-media:hover img {
+  transform: scale(1.03);
+}
+
+/* Ratios de référence */
+.ic-ratio-hero     { aspect-ratio: 16 / 9; }
+.ic-ratio-category { aspect-ratio: 4 / 5; }
+.ic-ratio-context  { aspect-ratio: 3 / 2; }
+.ic-ratio-product  { aspect-ratio: 1 / 1; }
+.ic-ratio-matiere  { aspect-ratio: 21 / 9; }
+
+/* Focus accessible et discret */
+:focus-visible {
+  outline: var(--ic-border-width) solid var(--ic-accent);
+  outline-offset: 3px;
+}
+
+/* ==========================================================================
+   Apparition au scroll
+   ========================================================================== */
+
+.ic-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity var(--ic-duration) var(--ic-ease),
+              transform var(--ic-duration) var(--ic-ease);
+}
+
+.ic-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ==========================================================================
+   Accessibilité — non négociable.
+   Toute animation et toute 3D sont désactivées, contenu statique équivalent.
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .ic-reveal {
+    opacity: 1;
+    transform: none;
+  }
+
+  .ic-3d-canvas {
+    display: none;
+  }
+
+  .ic-3d-fallback {
+    display: block;
+  }
+}
+
+/* Repli statique : visible uniquement si la 3D est indisponible ou désactivée. */
+.ic-3d-fallback { display: none; }

@@ -1,0 +1,364 @@
+{
+  "apres.jpg": {
+    "alt": "Après",
+    "type": "photo",
+    "pages": [
+      "amenagement.html",
+      "index.html"
+    ]
+  },
+  "avant.jpg": {
+    "alt": "Avant",
+    "type": "photo",
+    "pages": [
+      "amenagement.html",
+      "index.html"
+    ]
+  },
+  "grain-du-travertin.jpg": {
+    "alt": "Grain du travertin",
+    "type": "macro",
+    "pages": [
+      "atelier.html"
+    ]
+  },
+  "fil-du-bois.jpg": {
+    "alt": "Fil du bois",
+    "type": "macro",
+    "pages": [
+      "atelier.html"
+    ]
+  },
+  "arete-acier.jpg": {
+    "alt": "Arête acier",
+    "type": "macro",
+    "pages": [
+      "atelier.html"
+    ]
+  },
+  "l-atelier-vue-d-ensemble.jpg": {
+    "alt": "L'atelier, vue d'ensemble",
+    "type": "photo",
+    "pages": [
+      "atelier.html"
+    ]
+  },
+  "une-main-un-outil.jpg": {
+    "alt": "Une main, un outil",
+    "type": "photo",
+    "pages": [
+      "atelier.html"
+    ]
+  },
+  "piece-en-cours.jpg": {
+    "alt": "Pièce en cours",
+    "type": "photo",
+    "pages": [
+      "atelier.html"
+    ]
+  },
+  "a-shooter.jpg": {
+    "alt": "À shooter",
+    "type": "portrait",
+    "pages": [
+      "atelier.html"
+    ]
+  },
+  "tables-basses.jpg": {
+    "alt": "Tables basses",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "tables-a-manger.jpg": {
+    "alt": "Tables à manger",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "canapes.jpg": {
+    "alt": "Canapés",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "fauteuils.jpg": {
+    "alt": "Fauteuils",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "buffets.jpg": {
+    "alt": "Buffets",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "consoles.jpg": {
+    "alt": "Consoles",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "chaises.jpg": {
+    "alt": "Chaises",
+    "type": "photo",
+    "pages": [
+      "collections.html",
+      "index.html"
+    ]
+  },
+  "lits.jpg": {
+    "alt": "Lits",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "decoration-murale.jpg": {
+    "alt": "Décoration murale",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "miroirs.jpg": {
+    "alt": "Miroirs",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "trio-travertin.jpg": {
+    "alt": "Trio travertin",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "talia.jpg": {
+    "alt": "TALIA",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "cannelee.jpg": {
+    "alt": "Cannelée",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "buffet-trois-portes.jpg": {
+    "alt": "Buffet trois portes",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "console-fine.jpg": {
+    "alt": "Console fine",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "miroir-organique.jpg": {
+    "alt": "Miroir organique",
+    "type": "photo",
+    "pages": [
+      "collections.html",
+      "index.html"
+    ]
+  },
+  "relief-mural.jpg": {
+    "alt": "Relief mural",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "modulable.jpg": {
+    "alt": "Modulable",
+    "type": "photo",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "lit-parental.jpg": {
+    "alt": "Lit parental",
+    "type": "photo",
+    "pages": [
+      "collections.html",
+      "index.html"
+    ]
+  },
+  "tables-basses-en-situation.jpg": {
+    "alt": "Tables basses en situation",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "table-a-manger.jpg": {
+    "alt": "Table à manger",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "canape-en-situation.jpg": {
+    "alt": "Canapé en situation",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "fauteuil.jpg": {
+    "alt": "Fauteuil",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "buffet-lumiere-rasante.jpg": {
+    "alt": "Buffet, lumière rasante",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "console.jpg": {
+    "alt": "Console",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "tableaux-en-relief.jpg": {
+    "alt": "Tableaux en relief",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "table-basse-travertin.jpg": {
+    "alt": "Table basse travertin",
+    "type": "rendu",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "projet-client-vue-d-ensemble.jpg": {
+    "alt": "Projet client, vue d'ensemble",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "projet-client.jpg": {
+    "alt": "Projet client",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "macro-matiere-lumiere-rasante-tres-ralenti.jpg": {
+    "alt": "Macro matière, lumière rasante, très ralenti",
+    "type": "vidéo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "le-showroom-vue-d-ensemble.jpg": {
+    "alt": "Le showroom, vue d'ensemble",
+    "type": "photo",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "vue-d-ensemble-du-sejour.jpg": {
+    "alt": "Vue d'ensemble du séjour",
+    "type": "photo",
+    "pages": [
+      "realisations.html"
+    ]
+  },
+  "salon.jpg": {
+    "alt": "Salon",
+    "type": "photo",
+    "pages": [
+      "realisations.html"
+    ]
+  },
+  "patio.jpg": {
+    "alt": "Patio",
+    "type": "photo",
+    "pages": [
+      "realisations.html"
+    ]
+  },
+  "buffet-sur-mesure.jpg": {
+    "alt": "Buffet sur mesure",
+    "type": "photo",
+    "pages": [
+      "realisations.html"
+    ]
+  },
+  "chambre.jpg": {
+    "alt": "Chambre",
+    "type": "photo",
+    "pages": [
+      "realisations.html"
+    ]
+  },
+  "hero-accueil.jpg": {
+    "alt": "Salon contemporain, tables basses en travertin, lumière naturelle",
+    "type": "hero",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "hero-collections.jpg": {
+    "alt": "Pièces du catalogue en situation",
+    "type": "hero",
+    "pages": [
+      "collections.html"
+    ]
+  },
+  "hero-realisations.jpg": {
+    "alt": "Intérieur réalisé pour un client",
+    "type": "hero",
+    "pages": [
+      "realisations.html"
+    ]
+  },
+  "hero-atelier.jpg": {
+    "alt": "L'atelier de Sidi Ghanem",
+    "type": "hero",
+    "pages": [
+      "atelier.html"
+    ]
+  },
+  "hero-showroom.jpg": {
+    "alt": "Le showroom, 437 Quartier Industriel Sidi-Ghanem",
+    "type": "hero",
+    "pages": [
+      "showroom.html"
+    ]
+  },
+  "hero-amenagement.jpg": {
+    "alt": "Espace réorganisé",
+    "type": "hero",
+    "pages": [
+      "amenagement.html"
+    ]
+  }
+}
